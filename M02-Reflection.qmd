@@ -1,0 +1,112 @@
+---
+title: "M02-Introduction to Data Science in R-Reflection"
+author: "Tim Arana"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    embed-resources: true
+    theme: cosmo
+editor: visual
+execute:
+  freeze: auto
+---
+
+# Introduction
+
+This module introduced the foundations of data science in R, reproducible research practices, Quarto, the Tidyverse ecosystem, R packages, and the debate between R and Python. The materials in module 2 demonstrated how modern data science emphasizes transparency, collaboration, and reproducibility while also providing tools that allow researchers and analysts to  communicate their work efficiently.
+
+## Learning Objectives
+
+::: callout-note
+This report summarizes my learning from Module 2 and reflects on how these concepts and ideas may be applied to my academic and professional work.
+:::
+
+# Reproducibility Crisis
+
+## Prompt: Summarize the video presentation about the reproducibility crisis.
+
+The video explained that reproducibility is the ability to obtain the same computational results using the same data, code, methods, and analysis conditions. Replicability is different because it means obtaining consistent results across new studies that use new data but answer the same research question.
+
+The presenters explained that the reproducibility crisis happens when researchers cannot recreate their own results or the results of others. This can happen because of poor file organization, missing documentation, manual copying and pasting, outdated software environments, or unclear analysis steps. They emphasized that reproducibility should not be seen as an all-or-nothing goal. Instead, researchers can improve gradually by organizing project folders, protecting raw data, using README files, creating data dictionaries, commenting code, and using scripts.
+
+A major idea from the workshop was that reproducibility helps both the research community and the researcher's future self. If a project is well organized and documented, it is much easier to return to the work years later and understand what was done.
+
+# Reproducible Data Science and Literate Coding
+
+## Prompt: Summarize the new things you learned in this module about reproducible data science and literate coding.
+
+This module taught me that reproducible data science involves integrating data, code, analysis, and reporting into a single workflow. Rather than manually moving results between software programs, modern tools allow reports to be generated directly from code.
+
+I learned that literate coding combines explanatory text and executable code within the same document. Quarto makes this possible by allowing users to write narrative explanations, generate figures and tables, and publish reports from a single source file. This improves transparency because every output can be traced directly back to the code that created it.
+
+The module also introduced important concepts such as version control, documentation, data organization, and project management. Together, these practices help improve transparency, reduce errors, and make research easier to reproduce.
+
+# Reproducibility in My Field
+
+## Prompt: What do you think about the reproducible crisis in your field? How can Quarto help address the concerns you have about reproducibility in your line of work?
+
+The reproducibility crisis can affect many fields because data analysis is often conducted using multiple software applications. When researchers manually transfer results between programs, mistakes can occur and important details may be lost. In addition, poorly documented workflows make it difficult for others to verify findings or repeat analyses.
+
+Quarto can help address these concerns by combining code, data analysis, visualizations, and written explanations into a single document. Because reports can be regenerated automatically, Quarto reduces the likelihood of human error and improves transparency. I believe these features can improve the quality of research and make it easier to share findings with others.
+
+# Quarto Capabilities
+
+## Prompt: Summarize the instructor's lectures about Quarto (Steps 2, 3, and 4). Do you see yourself using Quarto every day?
+
+One of the most impressive things I learned about Quarto is its versatility. A single Quarto file can be used to create HTML reports, PDF documents, Word documents, presentations, websites, blogs, and even books. Quarto also supports multiple programming languages, including R, Python, Julia, and JavaScript.
+
+I was especially impressed by the ability to publish documents directly to GitHub Pages. During this course I successfully created and published a website using Quarto, which demonstrated how easy it is to share work online.
+
+| Feature | Benefit |
+|----------|----------|
+| HTML Reports | Professional web documents |
+| Presentations | Create slides from code |
+| Websites | Publish projects online |
+| Multi-language Support | Use R and Python together |
+| GitHub Pages | Easy public sharing |
+
+I can see myself using Quarto regularly for assignments, project documentation, reports, presentations, and note-taking because it keeps everything organized in one place and supports reproducible workflows.
+
+# The Tidyverse Ecosystem
+
+## Prompt: Summarize what you learned about the Tidyverse ecosystem in R. What can you do with R?
+
+The Tidyverse is a collection of packages designed to make data science easier and more intuitive. According to *R for Data Science* by Hadley Wickham, the data science process includes importing, tidying, transforming, visualizing, modeling, and communicating data. The Tidyverse provides tools that support each of these stages.
+
+Important packages include dplyr for data manipulation, tidyr for data cleaning, readr for importing data, and ggplot2 for visualization. These packages share a consistent design philosophy, making them easier to learn and use together.
+
+Before this module, I mainly viewed R as a statistics program. However, I learned that R can be used for much more, including creating reports, dashboards, websites, visualizations, machine learning models, and interactive applications. The Tidyverse makes these tasks more approachable for beginners while still being powerful for advanced users.
+
+# Two R Packages That Could Help My Career
+
+## Prompt: Choose two packages beyond Tidyverse, Base R, and Quarto that could enhance your job/career.
+
+### Shiny
+
+Shiny allows users to create interactive web applications directly from R. I believe this package could be useful because organizations increasingly rely on dashboards and data-driven decision making. Shiny enables users without programming experience to interact with data and explore results.
+
+### Plotly
+
+Plotly creates interactive charts that users can explore in a web browser. Interactive visualizations make it easier to communicate findings and allow users to gain deeper insights from data. I believe Plotly would be valuable in both academic and professional environments where clear communication of data is important.
+
+# R vs. Python Debate
+
+## Prompt: Refer to the debate on R vs. Python. What is your take on this debate?
+
+The R versus Python debate depends largely on a person's goals and interests. Python is a general-purpose programming language that is commonly used for software development, automation, web scraping, machine learning, and data engineering. It also has a larger user community, which makes it easier to find support and learning resources.
+
+R is particularly strong for statistics, data analysis, visualization, and reproducible research. The Tidyverse ecosystem makes data cleaning and transformation intuitive, while tools such as ggplot2, Shiny, and Quarto make it easy to create visualizations, dashboards, reports, and websites.
+
+My view is that there is no single winner. Both languages have strengths and weaknesses, and the best choice depends on the task being performed. For this course, R is a logical choice because it excels at data science, reproducibility, and reporting. However, Python remains valuable for machine learning, automation, and broader programming applications.
+
+One of the most interesting ideas presented in the module is interoperability. Quarto allows R and Python code to exist within the same project, making collaboration easier for teams that use different programming languages. Instead of choosing one language over the other, modern data scientists can benefit from learning both and selecting the most appropriate tool for each task.
+
+[^1]: Quarto's support for multiple programming languages helps teams collaborate while maintaining reproducible workflows.
+
+# Conclusion
+
+This module expanded my understanding of modern data science and reproducible research practices. I learned about the reproducibility crisis, literate programming, Quarto, the Tidyverse ecosystem, important R packages, and the ongoing discussion surrounding R and Python. The most valuable lesson was understanding that reproducibility is not only about sharing results but also about creating transparent, organized, and repeatable workflows. I believe the tools and concepts introduced in this module will be useful throughout my academic and professional career.
